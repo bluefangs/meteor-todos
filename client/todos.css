@@ -1,0 +1,123 @@
+/*
+ * File: todos.css
+ * Created Date: Thursday, May 30th 2019, 5:33:21 pm
+ * Author: Bharath Keshav
+ * Last Modified: Thursday, May 30th 2019, 5:33:22 pm
+ * Modified By: Bharath Keshav
+ * Copyright (c) 2019 Nivetti Systems Pvt Ltd.
+ * ////////////////////////////// NOTICE ///////////////////////////////
+ * //                                                                 //
+ * //                   CONFIDENTIAL INFORMATION                      //
+ * //     This Document contains Confidential Information or          //
+ * //     Trade Secrets, or both, which are the property of Nivetti   //
+ * //     Systems Pvt Ltd. This document may not be copied,           //
+ * //     reproduced, reduced to any electronic medium or machine     //
+ * //     readable form or  otherwise duplicated and the information  //
+ * //     herein may not be used, disseminated or otherwise disclosed,//
+ * //     except with the prior written consent of Nivetti Systems    //
+ * //     Pvt Ltd.                                                    //
+ * //                                                                 //
+ * ////////////////////////////// NOTICE ///////////////////////////////
+ * // All rights reserved.
+ * // Use of copyright notice does not imply publication.
+ */
+
+
+
+
+
+
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  /* Everything but the jumbotron gets side spacing for mobile first views */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  /* Custom page header */
+  .header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  /* Make the masthead heading the same height as the navigation */
+  .header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+  }
+  
+  /* Custom page footer */
+  .footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  ul{
+    margin:0;
+    padding:0;
+  }
+  
+  li{
+    list-style:none;
+    padding: 15px;
+    border-bottom:#eee solid 1px;
+  }
+  
+  li.checked{
+    color: #ccc;
+  }
+  
+  li.checked .text{
+    text-decoration: line-through;
+  }
+  
+  .delete-todo{
+    float:right;
+    font-weight:bold;
+    background:none;
+    font-size:1em;
+    border:0;
+    position:relative;
+    color:red;
+  }
+  
+  /* Customize container */
+  @media (min-width: 768px) {
+    .container {
+      max-width: 730px;
+    }
+  }
+  .container-narrow > hr {
+    margin: 30px 0;
+  }
+  
+  /* Supporting marketing content */
+  .marketing {
+    margin: 40px 0;
+  }
+  .marketing p + h4 {
+    margin-top: 28px;
+  }
+  
+  /* Responsive: Portrait tablets and up */
+  @media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    /* Space out the masthead */
+    .header {
+      margin-bottom: 30px;
+    }
+  }
